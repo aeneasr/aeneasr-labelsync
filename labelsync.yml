@@ -1,17 +1,96 @@
 # Colors
 colors:
-  area: &area '#FFD700'
-  kind: &kind '#3B5BDB'
+  area: &area "#FFD700"
+  kind: &kind "#3B5BDB"
+  status: &status "#F8F9FA"
+  bug: &bug "#EE0000"
+  priority: &priority "#F783AC"
+  scope: &scope "#27CF79"
+  team: &team'#FDF4E8'
+  release: &release "#A5D8ff"
+  process: &process' "#EB9100"
 
 # Labels
 labels: &common
-    'kind/bug':
+  "bug/0-needs-info":
+    color: &bug
+    description: More information is needed for reproduction.
+    siblings: ["kind/bug"]
+  "bug/1-repro-available":
+    color: &bug
+    description: A reproduction exists and needs to be confirmed.
+    siblings: ["kind/bug"]
+  "bug/2-confirmed":
+    color: &bug
+    description: We have confirmed that this is a bug.
+    siblings: ["kind/bug"]
+  "kind/bug":
     color: &bug
     description: A reported bug.
     alias: ["bug"]
+  "kind/regression":
+    color: &kind
+    description: A reported bug in functionality that used to work before.
+  "kind/feature":
+    color: &kind
+    description: A request for a new feature.
+    alias: ["enhancement"]
+  "kind/improvement":
+    color: &kind
+    description: An improvement to existing feature and code.
+  "kind/docs":
+    color: &kind
+    description: A documentation change is required.
+    alias: ["documentation"]
+  "kind/discussion":
+    color: &kind
+    description: Discussion is required.
+  "kind/question":
+    color: &kind
+    description: Developer asked a question. No code changes required.
+    alias: ["question"]
 
 # Repositories
 repos:
-  "label-sync-test-*":
+  label-sync-test-1:
+    config:
+      removeUnconfiguredLabels: false
     labels:
-      <<: *common
+      {}
+      # <<: *common
+      # Add labels here.
+  label-sync-test-2:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      {}
+      # <<: *common
+      # Add labels here.
+  label-sync-test-3:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      {}
+      # <<: *common
+      # Add labels here.
+  label-sync-test-4:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      {}
+      # <<: *common
+      # Add labels here.
+  label-sync-test-5:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      {}
+      # <<: *common
+      # Add labels here.
+  label-sync-test-6:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      {}
+      # <<: *common
+      # Add labels here.
