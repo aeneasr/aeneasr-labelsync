@@ -12,6 +12,6 @@ labels: &common
 
 # Repositories
 repos:
-	"label-sync-test-*":
+  "label-sync-test-*":
     labels:
       <<: *common
