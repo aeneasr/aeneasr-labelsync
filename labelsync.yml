@@ -1,0 +1,17 @@
+# Colors
+colors:
+  area: &area '#FFD700'
+  kind: &kind '#3B5BDB'
+
+# Labels
+labels: &common
+    'kind/bug':
+    color: &bug
+    description: A reported bug.
+    alias: ["bug"]
+
+# Repositories
+repos:
+	"label-sync-test-*":
+    labels:
+      <<: *common
