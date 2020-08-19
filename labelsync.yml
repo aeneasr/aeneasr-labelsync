@@ -1,5 +1,5 @@
 repos:
-  aeneasr/label-sync-test-1:
+  label-sync-test-1:
     config:
       removeUnconfiguredLabels: false
     labels:
@@ -48,7 +48,7 @@ repos:
         description: Something isn't working
         alias: []
         siblings: []
-  aeneasr/label-sync-test-2:
+  label-sync-test-2:
     config:
       removeUnconfiguredLabels: false
     labels:
