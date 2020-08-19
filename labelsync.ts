@@ -11,17 +11,7 @@ labelsync({
     // prisma,
     // github,
     /* Personalized repositories */
-    "github.com/aeneasr/label-sync-test-1": repo({
-      config: {
-        removeUnconfiguredLabels: false,
-      },
-      labels: [...github.labels],
-    }),
-    "github.com/aeneasr/label-sync-test-2": repo({
-      config: {
-        removeUnconfiguredLabels: false,
-      },
-      labels: [...github.labels],
-    }),
+    "github.com/aeneasr/label-sync-test-1": github,
+    "github.com/aeneasr/label-sync-test-2": github
   },
 });

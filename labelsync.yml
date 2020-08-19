@@ -1,0 +1,99 @@
+repos:
+  github.com/aeneasr/label-sync-test-1:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      wontfix:
+        color: '#000000'
+        description: This will not be worked on
+        alias: []
+        siblings: []
+      question:
+        color: '#d876e3'
+        description: Further information is requested
+        alias: []
+        siblings: []
+      invalid:
+        color: '#e4e669'
+        description: This doesn't seem right
+        alias: []
+        siblings: []
+      help wanted:
+        color: '#008672'
+        description: Extra attention is needed
+        alias: []
+        siblings: []
+      good first issue:
+        color: '#7057ff'
+        description: Good for newcomers
+        alias: []
+        siblings: []
+      enhancement:
+        color: '#a2eeef'
+        description: New feature or request
+        alias: []
+        siblings: []
+      duplicate:
+        color: '#cfd3d7'
+        description: This issue or pull request already exists
+        alias: []
+        siblings: []
+      documentation:
+        color: '#0075ca'
+        description: Improvements or additions to documentation
+        alias: []
+        siblings: []
+      bug:
+        color: '#d73a4a'
+        description: Something isn't working
+        alias: []
+        siblings: []
+  github.com/aeneasr/label-sync-test-2:
+    config:
+      removeUnconfiguredLabels: false
+    labels:
+      wontfix:
+        color: '#000000'
+        description: This will not be worked on
+        alias: []
+        siblings: []
+      question:
+        color: '#d876e3'
+        description: Further information is requested
+        alias: []
+        siblings: []
+      invalid:
+        color: '#e4e669'
+        description: This doesn't seem right
+        alias: []
+        siblings: []
+      help wanted:
+        color: '#008672'
+        description: Extra attention is needed
+        alias: []
+        siblings: []
+      good first issue:
+        color: '#7057ff'
+        description: Good for newcomers
+        alias: []
+        siblings: []
+      enhancement:
+        color: '#a2eeef'
+        description: New feature or request
+        alias: []
+        siblings: []
+      duplicate:
+        color: '#cfd3d7'
+        description: This issue or pull request already exists
+        alias: []
+        siblings: []
+      documentation:
+        color: '#0075ca'
+        description: Improvements or additions to documentation
+        alias: []
+        siblings: []
+      bug:
+        color: '#d73a4a'
+        description: Something isn't working
+        alias: []
+        siblings: []
