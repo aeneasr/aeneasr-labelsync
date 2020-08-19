@@ -56,9 +56,7 @@ repos:
     config:
       removeUnconfiguredLabels: false
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
   label-sync-test-2:
     config:
       removeUnconfiguredLabels: false
