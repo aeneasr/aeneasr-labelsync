@@ -15,13 +15,13 @@ labelsync({
       config: {
         removeUnconfiguredLabels: false,
       },
-      labels: [],
+      labels: [...github.labels],
     }),
     "github.com/aeneasr/label-sync-test-2": repo({
       config: {
         removeUnconfiguredLabels: false,
       },
-      labels: [],
+      labels: [...github.labels],
     }),
   },
 });
