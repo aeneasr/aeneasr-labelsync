@@ -73,24 +73,3 @@ repos:
       {}
       # <<: *common
       # Add labels here.
-  label-sync-test-4:
-    config:
-      removeUnconfiguredLabels: false
-    labels:
-      {}
-      # <<: *common
-      # Add labels here.
-  label-sync-test-5:
-    config:
-      removeUnconfiguredLabels: false
-    labels:
-      {}
-      # <<: *common
-      # Add labels here.
-  label-sync-test-6:
-    config:
-      removeUnconfiguredLabels: false
-    labels:
-      {}
-      # <<: *common
-      # Add labels here.
